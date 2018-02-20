@@ -375,10 +375,19 @@ and open the template in the editor.
 /******************Section2 css******************/
 .de-features {
     padding: 50px 0;
-    background: #f3f3f3;
+    background: #1e2332;
 }
+.feature-img{
+    margin-bottom: 15px;
 
+}
 .de-feature-name{
+    color:#fff;
+}
+.de-feature-row{
+    border-bottom: 1px dotted #fff;
+}
+/*.de-feature-name{
     opacity: 0;
     transition: opacity .5s ease-in-out;
     padding-top: 15px;
@@ -396,18 +405,23 @@ and open the template in the editor.
 }
 .de-wrap{
     height: 300px;
-}
+}*/
 .de-feature-row{
-    padding:10px 0 30px 0;
+    padding-top: 50px;
+    padding-bottom:30px;
     /*border-bottom: 1px solid #40a4ec;*/
 }
-.de-feature-row.de-last-row{
+/*.de-feature-row.de-last-row{
     padding-bottom: 0;
+}*/
+.de-salient-title{
+    color:#fff;
+    margin-bottom: 20px;
 }
 /*******************section 3 css*******************/
 .de-transform{
     /*background: #f3f3f3;*/
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .de-transform-detail{
     line-height: 1.7;
@@ -422,7 +436,7 @@ and open the template in the editor.
 /*******************section 4 css*******************/
 .de-gw-sol{
     padding: 50px 0;
-    background: #f3f3f3;
+    background: #1e2332;
 }
 .de-sol-row{
     margin-bottom: 50px;
@@ -430,6 +444,10 @@ and open the template in the editor.
 .de-gsol{
     margin-bottom:50px;
     text-align: center;
+    color:#fff;
+}
+.de-sol-row h4{
+    color:#fff;
 }
 
 .de-icon {
