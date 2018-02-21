@@ -149,8 +149,9 @@ and open the template in the editor.
 }
 
 .letter {
+    margin-right: 3px;
     display: inline-block;
-    font-size: 50px;
+    font-size: 65px;
     color: #fff;
     position: relative;
     z-index: 99999;
@@ -379,10 +380,17 @@ and open the template in the editor.
 }
 .feature-img{
     margin-bottom: 15px;
+    height: 120px;
+    width:auto;
 
+}
+.de-round{
+    border:2px solid #fff;
+    border-radius: 100%;
 }
 .de-feature-name{
     color:#fff;
+    font-weight: 100;
 }
 .de-feature-row{
     border-bottom: 1px dotted #fff;
@@ -448,14 +456,15 @@ and open the template in the editor.
 }
 .de-sol-row h4{
     color:#fff;
+    font-weight: 100;
 }
 
 .de-icon {
-    width: 100px !important;
-    height: 100px;
+    width: 90px !important;
+    height: 90px;
     border: 1px solid  #34ec10;
     border-radius: 50%;
-    padding: 19px;
+    padding: 20px;
     margin-bottom: 20px;
     color:#40a4ec;
 }
