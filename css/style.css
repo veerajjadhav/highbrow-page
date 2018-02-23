@@ -651,3 +651,6 @@ footer{
     cursor: pointer;
     display: none;
 }
+.active{
+    color:black;
+}
