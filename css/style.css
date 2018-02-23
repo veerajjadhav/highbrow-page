@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 
-/*Gateway Page css*/
+/*Gateway Home Page css*/
 
 
 /******************Header css******************/
@@ -341,6 +341,13 @@ and open the template in the editor.
     animation-delay: 4000ms;
 }
 
+.animate-third {
+    -webkit-animation-delay: 5000ms;
+    -moz-animation-delay: 5000ms;
+    -o-animation-delay: 5000ms;
+    animation-delay: 5000ms;
+
+}
 @keyframes reveal {
     0% {
         opacity: 0;
@@ -348,6 +355,7 @@ and open the template in the editor.
         -moz-transform: translateY(100%);
         -o-transform: translateY(100%);
         transform: translateY(100%);
+
     }
     100% {
         opacity: 1;
@@ -355,6 +363,7 @@ and open the template in the editor.
         -moz-transform: translateY(0);
         -o-transform: translateY(0);
         transform: translateY(0);
+
     }
 }
 /*animation css*/
@@ -569,4 +578,76 @@ footer{
 }
 .de-copy{
     margin-bottom: 0;
+}
+
+
+/*Gateway Feature Page css*/
+/******************banner css******************/
+
+.de-feature-container{
+    display: inline-block;
+    margin-right: 15px;
+}
+.de-feature-container .letter{
+    font-size: 40px;
+    margin-right: 0;
+}
+.feature-banner{
+    background: url('../images/feature_banner.jpg');
+    padding:150px 0;
+    /*background-position: -150px -265px;*/
+    position: relative;
+    background-repeat: no-repeat;
+}
+.feature-banner:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    /*z-index: -1;*/
+}
+.de-modules a{
+    font-size: 20px;
+    padding: 10px 20px;
+    color:#fff;
+    display: inline-block;
+    background: #01ccff;
+    font-weight: 100;
+    transition: all 0.5s;
+    margin-right: 20px;
+}
+.de-modules a:hover{
+    text-decoration: none;
+    background: #00a4cd;
+    color:#fff;
+}
+.de-feature-desc{
+    background: #1e2332;
+    color:#fff;
+    padding: 30px 0;
+}
+.de-feature-desc p{
+    marign-bottom:0;
+}
+
+
+#section1,#section2,#section3{
+    height: 400px;
+    background: red;
+}
+#section2{
+    background: green;
+}
+#section3{
+    background: blue;
+}
+#toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
 }
