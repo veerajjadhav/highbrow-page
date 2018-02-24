@@ -147,17 +147,11 @@ and open the template in the editor.
     100% {transform: scale(1);}
 }/*End of Zoom out Keyframes */
 
-
-
-
-
-
-
 .de-banner{
     background: url('../images/highBanner.jpg');
     padding:150px 0;
     background-position: -150px -265px;
-
+    background-size: cover;
 }
 
 .de-container {
@@ -399,9 +393,9 @@ and open the template in the editor.
     content: '';
     height: 2px;
     width: 70px;
-    background: #212529;
+    background: #2b8fef;
     left: 43%;
-    bottom: -15px;
+    bottom: -10px;
 }
 /******************Section2 css******************/
 .de-features {
@@ -425,25 +419,7 @@ and open the template in the editor.
 .de-feature-row{
     border-bottom: 1px dotted #fff;
 }
-/*.de-feature-name{
-    opacity: 0;
-    transition: opacity .5s ease-in-out;
-    padding-top: 15px;
-}
-.de-wrap:hover .de-feature-name{
-    opacity: 1;
-}
 
-.de-wrap .feature-img{
-    padding-top: 40px;
-    transition: padding 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.8s;
-}
-.de-wrap:hover .feature-img{
-    padding-top: 0;
-}
-.de-wrap{
-    height: 300px;
-}*/
 .de-feature-row{
     padding-top: 50px;
     padding-bottom:30px;
@@ -599,6 +575,7 @@ footer{
     /*background-position: -150px -265px;*/
     position: relative;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .feature-banner:after{
     position: absolute;
@@ -626,25 +603,19 @@ footer{
     color:#fff;
 }
 .de-feature-desc{
-    background: #1e2332;
+    line-height: 1.7;
     color:#fff;
-    padding: 30px 0;
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 50px;
+    position: relative;
+    z-index: 99;
 }
 .de-feature-desc p{
     marign-bottom:0;
 }
 
 
-#section1,#section2,#section3{
-    height: 400px;
-    background: red;
-}
-#section2{
-    background: green;
-}
-#section3{
-    background: blue;
-}
 #toTop{
     position: fixed;
     bottom: 10px;
@@ -655,4 +626,78 @@ footer{
 .navbar-light .navbar-nav .nav-link.active{
     color: rgba(0,0,0,.9);
     /*color:red;*/
+}
+.de-feature-desc .blinking-cursor{
+    font-size: 22px;
+    font-weight: 100;
+}
+/******************* module 1css *******************/
+.de-mod-1 .de-gw-title:after{
+    left:45%;
+}
+#section1,
+#section2,
+#section3{
+    padding-top: 50px;
+}
+
+.de-mod-1-wrapper{
+    background: #1e2332;
+    padding: 50px 0;
+}
+.de-mod-2-wrapper{
+    background: #1e2332;
+    padding: 90px 0;
+}
+.de-module-name{
+    color:#fff;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    padding-top: 15px;
+}
+.de-module-wrap:hover .de-module-name{
+    opacity: 1;
+}
+
+.de-module-wrap .feature-module-img{
+    padding-top: 40px;
+    transition: padding 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.8s;
+    display: inline-block;
+}
+.de-module-wrap:hover .feature-module-img{
+    padding-top: 0;
+}
+.de-module-wrap{
+    height: 200px;
+    /*padding: 0 70px;*/
+}
+.de-module-title{
+    color:#fff;
+}
+.de-module-title{
+    position: relative;
+    font-weight: 100;
+}
+.de-module-title:after{
+    position: absolute;
+    content: '';
+    bottom: -15px;
+    width: 10px;
+    height: 2px;
+    background: #34ec10;
+    transition: all 0.5s;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.de-module-wrap:hover .de-module-title:after {
+    width: 50%;
+}
+.de-module-icon{
+    color:#40a4ec;
+}
+.de-module-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
