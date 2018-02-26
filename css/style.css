@@ -31,6 +31,73 @@ and open the template in the editor.
     color: #78a935;
 }
 
+.awesome {
+    font-style: oblique;
+    color:#313131;
+    /*font-size:12px;*/
+    font-weight: bold;
+    /*position: absolute;*/
+    border: 1px solid;
+    -webkit-animation:colorchange 20s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+
+        color: #40a4ec;
+    }
+
+    10% {
+
+        color: #8e44ad;
+    }
+
+    20% {
+
+        color: #000000e6;
+    }
+
+    30% {
+
+        color: #04416d;
+    }
+
+    40% {
+
+        color: #40a4ec;
+    }
+
+    50% {
+
+        color: #000000e6;
+    }
+
+    60% {
+
+        color: #40a4ec;
+    }
+
+    70% {
+
+        color: #2980b9;
+    }
+    80% {
+
+        color: #000000e6;
+    }
+
+    90% {
+
+        color: #2980b9;
+    }
+
+    100% {
+
+        color: #34ec10;
+    }
+}
 
 /******************banner css******************/
 
@@ -592,14 +659,14 @@ footer{
     padding: 10px 20px;
     color:#fff;
     display: inline-block;
-    background: #01ccff;
+    background: #40a4ec;
     font-weight: 100;
     transition: all 0.5s;
     margin-right: 20px;
 }
 .de-modules a:hover{
     text-decoration: none;
-    background: #00a4cd;
+    background: #2f9c19;
     color:#fff;
 }
 .de-feature-desc{
@@ -700,4 +767,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/*zoom effect*/
+.hover-img{
+    transition: all 0.5s!important ;
+}
+.de-feature-row .de-wrap:hover .hover-img{
+    transform: scale(1.3);
 }
