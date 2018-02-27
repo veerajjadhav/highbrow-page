@@ -13,6 +13,9 @@ and open the template in the editor.
 
 
 /******************Header css******************/
+header{
+    border-bottom: 1px solid #40a4ed;
+}
 .de-navbar{
     padding-top:0;
     padding-bottom: 0;
@@ -39,8 +42,7 @@ and open the template in the editor.
     /*position: absolute;*/
     border: 1px solid;
     -webkit-animation:colorchange 20s infinite alternate;
-
-
+    box-shadow: 1px 1px 1px 0px;
 }
 
 @-webkit-keyframes colorchange {
@@ -776,4 +778,54 @@ footer{
 }
 .de-feature-row .de-wrap:hover .hover-img{
     transform: scale(1.3);
+}
+
+/*testimonials page css*/
+
+/**********************testimonials slider css*********************/
+.carousel-indicators li{
+    background: #2b8fef;
+    cursor: pointer;
+}
+.carousel-indicators .active{
+    background: #fff;
+}
+.de-avatar img{
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.de-testimoial-slider{
+    padding: 100px 0;
+    background: #4ADFCC;
+}
+.de-testomonial-slider{
+    margin-bottom: 40px;
+    color:#fff;
+}
+.de-client-says:before{
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.carousel-indicators{
+    margin-bottom: 0;
+    bottom:-15px;
+}
+.de-author-details{
+    border-top: 1px solid;
+}
+.de-author-heading{
+    font-weight: normal;
+}
+.de-authors-com,
+.de-author-details{
+    font-weight: 100;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    display: none;
 }
