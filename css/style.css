@@ -783,6 +783,9 @@ footer{
 /*testimonials page css*/
 
 /**********************testimonials slider css*********************/
+.de-client-says{
+    color:#fff;
+}
 .carousel-indicators li{
     background: #2b8fef;
     cursor: pointer;
@@ -797,7 +800,7 @@ footer{
 }
 .de-testimoial-slider{
     padding: 100px 0;
-    background: #4ADFCC;
+    background: #1e2332;
 }
 .de-testomonial-slider{
     margin-bottom: 40px;
@@ -829,3 +832,70 @@ footer{
 .carousel-control-prev{
     display: none;
 }
+
+/**********************contact page css*********************/
+.de-form-section{
+    padding: 100px 0;
+    background: #1e2332;
+}
+.de-submit-btn{
+    background: #397bb9;
+    border: 0;
+    color: #fff;
+    padding: 6px 42px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.de-submit-btn:hover{
+    background: #2b8fef;
+}
+.de-formdiv{
+    margin-bottom: 40px;
+    color:#fff;
+    width: 50%;
+}
+.de-formdiv p{
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.de-contact-tag{
+    color:#fff;
+    font-weight: 100;
+    text-align: center;
+}
+.de-input{
+    padding: 0 5px;
+    width: 90%;
+}
+.de-promo{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.de-contact-form{
+    border: 1px solid #fff;
+    padding: 20px;
+}
+.de-map{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
