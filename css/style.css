@@ -220,6 +220,25 @@ header{
     100% {transform: scale(1);}
 }/*End of Zoom out Keyframes */
 
+.de-demo-link{
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border-radius: 5px;
+    color:#fff;
+    left: -20px;
+}
+.de-demo-link a{
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    background: #1e4967;
+}
+
+
 .de-banner{
     background: url('../images/highBanner.jpg');
     padding:160px 0;
