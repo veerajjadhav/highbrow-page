@@ -14,18 +14,20 @@ and open the template in the editor.
 
 /******************Header css******************/
 header{
-    border-bottom: 1px solid #40a4ed;
+    /*border-bottom: 1px solid #40a4ed;*/
+    /*background:#003F6B;*/
+    background: #012d4c;
 }
 .de-navbar{
     padding-top:0;
     padding-bottom: 0;
 }
 .navbar-brand img{
-    max-height: 90px;
+    max-height: 85px;
     width: auto;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #40a4ec;
+    color: #ffffff;
     margin-right: 10px;
     padding: 8px 15px;
 }
@@ -53,17 +55,17 @@ header{
 
     10% {
 
-        color: #8e44ad;
+        color: #78a935;
     }
 
     20% {
 
-        color: #000000e6;
+        color: #ffffff;
     }
 
     30% {
 
-        color: #04416d;
+        color: #ffffff;
     }
 
     40% {
@@ -73,7 +75,7 @@ header{
 
     50% {
 
-        color: #000000e6;
+        color: #78a935;
     }
 
     60% {
@@ -83,11 +85,11 @@ header{
 
     70% {
 
-        color: #2980b9;
+        color: #78a935;
     }
     80% {
 
-        color: #000000e6;
+        color: #fff;
     }
 
     90% {
@@ -97,10 +99,12 @@ header{
 
     100% {
 
-        color: #34ec10;
+        color: #78a935;
     }
 }
-
+.navbar-light .navbar-toggler{
+    background: #fff;
+}
 /******************banner css******************/
 
 .blinking-cursor {
@@ -218,7 +222,7 @@ header{
 
 .de-banner{
     background: url('../images/highBanner.jpg');
-    padding:150px 0;
+    padding:160px 0;
     background-position: -150px -265px;
     background-size: cover;
 }
@@ -693,8 +697,8 @@ footer{
     display: none;
 }
 .navbar-light .navbar-nav .nav-link.active{
-    color: rgba(0,0,0,.9);
-    /*color:red;*/
+    /*color: rgba(0,0,0,.9);*/
+    color:#78a935;
 }
 .de-feature-desc .blinking-cursor{
     font-size: 22px;
@@ -712,11 +716,11 @@ footer{
 
 .de-mod-1-wrapper{
     background: #1e2332;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .de-mod-2-wrapper{
     background: #1e2332;
-    padding: 90px 0;
+    padding: 60px 0;
 }
 .de-module-name{
     color:#fff;
