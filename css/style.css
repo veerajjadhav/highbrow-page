@@ -496,7 +496,11 @@ header{
 }
 .feature-img{
     margin-bottom: 15px;
-    max-height: 110px;
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    object-fit: contain;
     /*max-width:100px;*/
 
 }
