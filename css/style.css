@@ -912,8 +912,23 @@ footer{
     color:#fff;
     margin-right: 20px;
 }
-/*media queries*/
 
+/*thanks page*/
+
+.de-thanks-section{
+    padding: 110px 0;
+    background: #1e2332;
+    color: #fff;
+}
+.de-thanks-section h1,
+.de-thanks-section h2{
+    color:#fff;
+    font-weight: 100;
+}
+.de-thanks-title:after{
+    left: 48%;
+}
+/*media queries*/
 
 @media only screen and (max-width: 768px) {
 
