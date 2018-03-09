@@ -912,7 +912,9 @@ footer{
     color:#fff;
     margin-right: 20px;
 }
-
+.de-submit-div{
+    text-align: center;
+}
 /*thanks page*/
 
 .de-thanks-section{

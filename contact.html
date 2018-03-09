@@ -110,24 +110,27 @@ and open the template in the editor.
                             <div class="form-row">
                                 <div class="de-formdiv">
                                     <p>Phone No:</p>
-                                    <input type="tel" name="contactNo" class="de-input">
+                                    <input type="tel" name="contactNo" class="de-input" pattern="[0-9]{10}" title="10 digit number between 0-9" required>
                                 </div>
                                 <div class="de-formdiv">
                                     <p>Subject:</p>
-                                    <input type="text" name="subject" class="de-input">
+                                    <input type="text" name="subject" class="de-input" required>
                                 </div>
                             </div>
-                            <div class="de-formdiv">
-                                <p>Promo Code:</p>
-                                <input type="text" name="PromoCode" class="de-input">
+                            <div class="form-row">
+                                <div class="de-formdiv">
+                                    <p>Promo Code:</p>
+                                    <input type="text" name="PromoCode" class="de-input">
+                                </div>
+                                <div class="de-formdiv">
+                                    <p>Your Message</p>
+                                    <textarea rows="4" cols="50" name="message" class="de-input" required></textarea>
+                                </div>
                             </div>
-                            <div class="de-formdiv">
-                                <p>Your message</p>
-                                <textarea rows="4" cols="50" name="message" class="de-input"></textarea>
-                            </div>
-
                             <!--<input type="hidden" name="_subject" value="New submissions!" />-->
-                            <input type="submit" value="Send" class="de-submit-btn">
+                            <div class="de-submit-div">
+                                <input type="submit" value="Send" class="de-submit-btn">
+                            </div>
                             <!--<input type="hidden" name="_next" value="//veerajjadhav.github.io/highbrow-page//thanks.html" />-->
 
                         </form>
