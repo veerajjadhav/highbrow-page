@@ -37,4 +37,28 @@ jQuery( document ).ready( function () {
         fixedContentPos: false
     } );
 
+    $( '#foo' ).magnificPopup( {
+        delegate: 'a',
+        type: 'inline',
+        callbacks: {
+            open: function () {
+
+                // https://github.com/dimsemenov/Magnific-Popup/issues/125
+                $( 'html' ).css( 'margin-right', 0 );
+
+                // Play video on open:
+                $( this.content ).find( 'video' )[0].play();
+
+            },
+            close: function () {
+
+                // Reset video on close:
+                $( this.content ).find( 'video' )[0].load();
+
+            }
+        }
+    } );
+
+
+
 } );
