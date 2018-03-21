@@ -25,4 +25,17 @@ jQuery( document ).ready( function () {
         $( "html, body" ).animate( { scrollTop: 0 }, 600 );
         return false;
     } );
+
+//    popup for video
+    $( '.popup-youtube, .popup-vimeo, .popup-gmaps' ).magnificPopup( {
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        controlsList: nodownload,
+
+        fixedContentPos: false
+    } );
+
 } );
